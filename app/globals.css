@@ -57,107 +57,116 @@
   }
 }
 
-/* Dark mode - sin @apply circular */
+/* Dark mode - usando selectores directos, sin @apply */
 .dark body {
-  @apply bg-black text-cream;
+  background-color: #000;
+  color: #F5F2EB;
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-  @apply text-cream;
+  color: #F5F2EB;
 }
 
 .dark h2 {
-  @apply text-gold;
+  color: #C9A96E;
 }
 
 .dark h2::after {
-  @apply bg-gold;
+  background-color: #C9A96E;
 }
 
 .dark .text-black {
-  @apply text-cream;
+  color: #F5F2EB;
 }
 
 .dark .text-black\/80 {
-  @apply text-cream/80;
+  color: rgba(245, 242, 235, 0.8);
 }
 
 .dark .text-silver {
-  @apply text-cream/70;
+  color: rgba(245, 242, 235, 0.7);
 }
 
 .dark .bg-cream {
-  @apply bg-black/95;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .dark .bg-cream\/95 {
-  @apply bg-black/95;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .dark .bg-cream\/50 {
-  @apply bg-black/50;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .dark .bg-white\/50 {
-  @apply bg-black/40;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .dark .bg-brown\/5 {
-  @apply bg-gold/5;
+  background-color: rgba(201, 169, 110, 0.05);
 }
 
 .dark .bg-brown\/10 {
-  @apply bg-gold/10;
+  background-color: rgba(201, 169, 110, 0.1);
 }
 
 .dark .border-brown\/10 {
-  @apply border-gold/10;
+  border-color: rgba(201, 169, 110, 0.1);
 }
 
 .dark .border-brown\/20 {
-  @apply border-gold/20;
-}
-
-.dark .border-l-4 {
-  @apply border-l-gold;
+  border-color: rgba(201, 169, 110, 0.2);
 }
 
 .dark .border-brown {
-  @apply border-gold;
+  border-color: #C9A96E;
 }
 
 .dark .bg-white {
-  @apply bg-black/80;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .dark .shadow-sm {
-  @apply shadow-gray-900/50;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .dark .shadow-lg {
-  @apply shadow-gray-900/70;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.7);
 }
 
 .dark .btn-primary {
-  @apply bg-gold/20 text-gold border-gold/30 hover:bg-gold/30;
+  background-color: rgba(201, 169, 110, 0.2);
+  color: #C9A96E;
+  border-color: rgba(201, 169, 110, 0.3);
+}
+
+.dark .btn-primary:hover {
+  background-color: rgba(201, 169, 110, 0.3);
 }
 
 .dark .btn-outline {
-  @apply text-gold border-gold/30 hover:bg-gold/20;
+  color: #C9A96E;
+  border-color: rgba(201, 169, 110, 0.3);
+}
+
+.dark .btn-outline:hover {
+  background-color: rgba(201, 169, 110, 0.2);
 }
 
 .dark .badge-development {
-  @apply bg-black/90;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .dark .bg-brown {
-  @apply bg-gold/20 text-gold;
+  background-color: rgba(201, 169, 110, 0.2);
+  color: #C9A96E;
 }
 
 .dark .text-brown {
-  @apply text-gold;
+  color: #C9A96E;
 }
 
-.dark .border-gold {
-  @apply border-gold/30;
+.dark .border-l-4 {
+  border-left-color: #C9A96E;
 }
