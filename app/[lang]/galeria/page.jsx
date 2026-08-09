@@ -1,5 +1,5 @@
-import { getDictionary } from '../../../lib/dictionary';
-import { SectionTitle } from '../../../components/SectionTitle';
+import { getDictionary } from '@/app/lib/dictionary';
+import { SectionTitle } from '@/app/components/SectionTitle';
 
 export default async function GaleriaPage({ params: { lang } }) {
   const dict = await getDictionary(lang);

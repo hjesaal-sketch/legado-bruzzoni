@@ -1,7 +1,7 @@
-import { getDictionary } from '../../../lib/dictionary';
-import { SectionTitle } from '../../../components/SectionTitle';
-import { BadgeDevelopment } from '../../../components/BadgeDevelopment';
-import { ImageCard } from '../../../components/ImageCard';
+import { getDictionary } from '@/app/lib/dictionary';
+import { SectionTitle } from '@/app/components/SectionTitle';
+import { BadgeDevelopment } from '@/app/components/BadgeDevelopment';
+import { ImageCard } from '@/app/components/ImageCard';
 
 export default async function TurismoExperienciasPage({ params: { lang } }) {
   const dict = await getDictionary(lang);
