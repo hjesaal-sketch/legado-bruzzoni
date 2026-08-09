@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { ThemeToggle } from './ThemeToggle';
 
 export function Header({ lang }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -72,6 +73,7 @@ export function Header({ lang }) {
               </div>
             ))}
             <LanguageSwitcher lang={lang} />
+            <ThemeToggle />
           </nav>
 
           {/* Mobile Menu Button */}
@@ -111,8 +113,9 @@ export function Header({ lang }) {
                   ))}
                 </div>
               ))}
-              <div className="pt-3 mt-2 border-t border-brown/10">
-                <LanguageSwitcher lang={lang} />
+              <div className="flex items-center justify-between pt-3 mt-2 border-t border-brown/10">
+                <LanguageSwitcher lang={lang} /> 
+                <ThemeToggle />
               </div>
             </nav>
           </div>

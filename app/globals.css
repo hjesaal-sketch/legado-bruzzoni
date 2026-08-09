@@ -63,4 +63,125 @@
   .badge-development {
     @apply bg-black/80 text-cream text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider;
   }
+@layer base {
+  /* Modo oscuro por defecto en elementos base */
+  body {
+    @apply bg-cream text-black dark:bg-black dark:text-cream transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-black dark:text-cream;
+  }
+
+  h2 {
+    @apply text-brown dark:text-gold;
+  }
+
+  h2::after {
+    @apply bg-brown dark:bg-gold;
+  }
+
+  .bg-cream {
+    @apply dark:bg-black/95;
+  }
+
+  .bg-white\/50 {
+    @apply dark:bg-black/40;
+  }
+
+  .bg-brown\/5 {
+    @apply dark:bg-gold/5;
+  }
+
+  .bg-brown\/10 {
+    @apply dark:bg-gold/10;
+  }
+
+  .border-brown\/10 {
+    @apply dark:border-gold/10;
+  }
+
+  .border-brown\/20 {
+    @apply dark:border-gold/20;
+  }
+
+  .border-l-4 {
+    @apply dark:border-l-gold;
+  }
+
+  .text-brown {
+    @apply dark:text-gold;
+  }
+
+  .text-silver {
+    @apply dark:text-cream/70;
+  }
+
+  .text-black\/80 {
+    @apply dark:text-cream/80;
+  }
+
+  .border-brown {
+    @apply dark:border-gold;
+  }
+
+  .hover\:text-brown:hover {
+    @apply dark:hover:text-gold;
+  }
+
+  .hover\:bg-brown\/10:hover {
+    @apply dark:hover:bg-gold/10;
+  }
+
+  .hover\:bg-brown\/5:hover {
+    @apply dark:hover:bg-gold/5;
+  }
+
+  .bg-cream\/95 {
+    @apply dark:bg-black/95;
+  }
+
+  .bg-black\/40 {
+    @apply dark:bg-black/60;
+  }
+
+  .shadow-sm {
+    @apply dark:shadow-gray-900/50;
+  }
+
+  .shadow-lg {
+    @apply dark:shadow-gray-900/70;
+  }
+
+  .bg-white {
+    @apply dark:bg-black/80;
+  }
+
+  .bg-cream\/50 {
+    @apply dark:bg-black/50;
+  }
+
+  .bg-brown {
+    @apply dark:bg-gold/20 dark:text-gold;
+  }
+
+  .border-gold {
+    @apply dark:border-gold/30;
+  }
+
+  .btn-primary {
+    @apply dark:bg-gold/20 dark:text-gold dark:border-gold/30 dark:hover:bg-gold/30;
+  }
+
+  .btn-outline {
+    @apply dark:text-gold dark:border-gold/30 dark:hover:bg-gold/20;
+  }
+
+  .bg-black\/80 {
+    @apply dark:bg-black/90;
+  }
+
+  .text-gold {
+    @apply dark:text-gold;
+  }
 }
