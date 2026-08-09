@@ -24,21 +24,21 @@ export function Header({ lang }) {
   return (
     <header className="fixed top-0 left-0 right-0 bg-cream/95 backdrop-blur-sm z-50 border-b border-brown/10">
       <div className="container-custom">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href={`/${lang}`} className="flex items-center">
-            <span className="font-serif text-2xl font-bold text-brown">
+          <Link href={`/${lang}`} className="flex items-center shrink-0">
+            <span className="font-serif text-lg md:text-2xl font-bold text-brown whitespace-nowrap">
               Hacienda <span className="text-black">Bruzzoni</span>
             </span>
           </Link>
 
           {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
             {menuItems.map((item) => (
               <Link
                 key={item.key}
                 href={`/${lang}${item.path}`}
-                className="text-sm text-black/80 hover:text-brown transition-colors font-medium"
+                className="text-sm text-black/80 hover:text-brown transition-colors font-medium whitespace-nowrap"
               >
                 {item.label}
               </Link>
@@ -48,7 +48,7 @@ export function Header({ lang }) {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-black"
+            className="lg:hidden text-black p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -64,19 +64,19 @@ export function Header({ lang }) {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden pb-6">
-            <nav className="flex flex-col space-y-3">
+          <div className="lg:hidden pb-4 max-h-[80vh] overflow-y-auto">
+            <nav className="flex flex-col space-y-2">
               {menuItems.map((item) => (
                 <Link
                   key={item.key}
                   href={`/${lang}${item.path}`}
-                  className="text-black/80 hover:text-brown transition-colors font-medium"
+                  className="text-black/80 hover:text-brown transition-colors font-medium py-2 border-b border-brown/5"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
               ))}
-              <div className="pt-3 border-t border-brown/10">
+              <div className="pt-3 mt-2 border-t border-brown/10">
                 <LanguageSwitcher lang={lang} />
               </div>
             </nav>
