@@ -1,0 +1,166 @@
+{
+  "common": {
+    "read_more": "Weiterlesen",
+    "back": "Zurück",
+    "badge_development": "In Entwicklung"
+  },
+  "hero": {
+    "title": "Die Vergangenheit ehren. Die Zukunft bauen.",
+    "subtitle": "In den Bergen Venezuelas, wo Kaffee Teil der Geschichte ist und die Landschaft die Erinnerung mehrerer Generationen bewahrt, gibt es ein Familienerbe, das mit der Ankunft von Antonio Bruzzoni aus Ligurien, Italien, geboren wurde.",
+    "cta": "Entdecken Sie unsere Geschichte"
+  },
+  "home": {
+    "features": {
+      "title": "Ein Erbe, das wir bewahren wollen",
+      "subtitle": "Kaffee. Natur. Geschichte. Erfahrungen.",
+      "cafe": {
+        "title": "Kaffee",
+        "description": "Die Kaffeetradition mit Qualität und Herkunft wiederbeleben"
+      },
+      "naturaleza": {
+        "title": "Natur",
+        "description": "Berge, Landschaften und Biodiversität im Herzen von Aragua"
+      },
+      "historia": {
+        "title": "Geschichte",
+        "description": "Über ein Jahrhundert Familienerbe von Ligurien nach Venezuela"
+      },
+      "experiencias": {
+        "title": "Erfahrungen",
+        "description": "Naturtourismus, Wandern, Vogelbeobachtung und mehr"
+      }
+    },
+    "cta": "Erfahren Sie mehr über unser Projekt",
+    "quote": "Ein Erbe wird nicht nur dadurch bewahrt, dass man sich daran erinnert. Ein Erbe wird durch Handeln bewahrt.",
+    "quote_author": "Legado Bruzzoni Projekt"
+  },
+  "laHacienda": {
+    "title": "Das Anwesen",
+    "subtitle": "Eine Geschichte, die vor über einem Jahrhundert begann",
+    "content_1": "Um 1872 verließ ein etwa achtzehnjähriger junger Mann namens Antonio Bruzzoni Cogoleto in Ligurien, Italien, und begab sich auf die Reise nach Venezuela. Im Laufe der Jahre baute er hier sein Leben, seine Familie und ein landwirtschaftliches Erbe auf, das dem Kaffee gewidmet war.",
+    "content_2": "Zusammen mit Tomasa Silva Silva gründete er eine Familie, deren Nachkommen bis heute mit diesen Ländern verbunden sind. Die Geschichte der Hacienda Bruzzoni ist nicht nur die Geschichte eines Anwesens. Es ist die Geschichte einer Familie.",
+    "content_3": "Es ist die Erinnerung an diejenigen, die vor uns in diesen Bergen gearbeitet haben. Und es ist auch eine Verantwortung: zu entscheiden, was wir heute mit dem tun, was wir erhalten haben.",
+    "sanJose_area": "Etwa 50 Hektar",
+    "sanJose_desc": "Mit etwa 30 Hektar, die historisch dem Kaffeeanbau gewidmet waren.",
+    "laSiberia_area": "Etwa 90 Hektar",
+    "laSiberia_desc": "Mit etwa 60 Hektar, die historisch mit dem Kaffeeanbau verbunden sind.",
+    "cta": "Erfahren Sie unsere Geschichte"
+  },
+  "nuestraHistoria": {
+    "title": "Von Ligurien in die Berge Venezuelas",
+    "subtitle": "Eine Geschichte, die es wert ist, fortgesetzt zu werden",
+    "content_1": "Antonio Bruzzoni wurde um 1854 in Cogoleto, Ligurien, Italien, geboren. Mit achtzehn Jahren begab er sich auf die Reise nach Venezuela und verließ seine Heimat, um ein neues Leben aufzubauen.",
+    "content_2": "Die Familienerinnerung besagt, dass er möglicherweise von einem Bruder begleitet wurde, der als 'Yumin' bekannt ist, obwohl diese Episode noch Teil der dokumentarischen Forschung der Familie ist.",
+    "content_3": "In Venezuela begann Antonio, sein Erbe schrittweise aufzubauen. Die Ländereien wurden im Laufe der Zeit durch verschiedene Mechanismen eingegliedert, darunter Zuweisungen und Erwerbungen, bis sie das Patrimonium bildeten, das wir heute als Hacienda Bruzzoni kennen.",
+    "content_4": "Der Kaffee wurde zum Zentrum dieser Tätigkeit. Generationen später sind seine Kaffeepflanzungen, seine Infrastruktur und seine Landschaft Zeugnis dieser Bemühungen.",
+    "quote_title": "Eine Geschichte, die es wert ist, fortgesetzt zu werden",
+    "quote": "Das Ziel ist nicht, die Vergangenheit in ein Museumsobjekt zu verwandeln. Es ist, diese Vergangenheit wieder Zukunft produzieren zu lassen."
+  },
+  "sanJose": {
+    "title": "San José (Bucaral)",
+    "subtitle": "Kaffeeland",
+    "content_1": "San José, auch bekannt als Bucaral, ist Teil des historischen Erbes der Hacienda Bruzzoni. Mit etwa 50 Hektar waren etwa 30 historisch mit dem Kaffeeanbau verbunden.",
+    "content_2": "Die Wiederherstellung dieser Ländereien ist Teil der produktiven Vision der Hacienda. Das Projekt sieht vor, den Zustand der Kaffeepflanzungen schrittweise zu bewerten, die tragfähigen Gebiete wiederherzustellen und eine Produktionskette aufzubauen, die in der Lage ist, vom Anwesen selbst aus Wert zu schöpfen.",
+    "content_3": "Es geht nicht nur darum, neu zu pflanzen. Es geht darum, Wissen, Qualität, Identität und Zweck wiederherzustellen."
+  },
+  "laSiberia": {
+    "title": "La Siberia",
+    "subtitle": "Ein Name, der aus der Landschaft geboren wurde",
+    "content_1": "La Siberia umfasst etwa 90 Hektar des Familienerbes. Sein Name wurde laut Familientradition von Antonio gewählt, um auf die klimatischen Merkmale des Ortes hinzuweisen, die ihn an die russische Region Sibirien erinnerten.",
+    "content_2": "Etwa 60 Hektar sind historisch mit dem Kaffeeanbau verbunden. La Siberia stellt einen grundlegenden Teil des produktiven und natürlichen Potenzials der Hacienda Bruzzoni dar.",
+    "content_3": "Seine Berge, das Klima, die Vegetation und die Landschaften eröffnen auch Möglichkeiten für die Entwicklung von Natur-, Kontemplations- und Abenteuererlebnissen."
+  },
+  "nuestroCafe": {
+    "title": "Kaffee als Erbe",
+    "subtitle": "Vom Berg zur Tasse",
+    "content_1": "Kaffee war der produktive Ursprung dieses Erbes. Heute wollen wir diese Tradition wiederbeleben und in ein zeitgenössisches Qualitätsangebot verwandeln.",
+    "content_2": "Eine Marke, die aus einer wahren Geschichte geboren wurde. Ein Kaffee, dessen Ursprung in denselben Ländern liegt, die seit Generationen mit unserer Familie verbunden sind.",
+    "brand_title": "BRUZZONI CAFÉ",
+    "brand_subtitle": "Eine Geschichte, die neu beginnt",
+    "donAntonio_title": "Don Antonio",
+    "donAntonio_desc": "Der erste Ausdruck von Bruzzoni Café wird den Namen desjenigen tragen, der diese Geschichte begonnen hat. Eine Hommage an einen Mann, der sehr jung nach Venezuela kam und sein Leben dem Aufbau einer Familie und eines Erbes in diesen Bergen widmete.",
+    "process_title": "Vom Anbau zur Tasse",
+    "process_steps": ["Anbau", "Ernte", "Aufbereitung", "Trocknung", "Sortierung", "Röstung", "Marke", "Erfahrung"],
+    "process_note": "Die produktive Wiederherstellung wird von technischer Bewertung und der Suche nach spezialisierten Partnern begleitet."
+  },
+  "turismo": {
+    "title": "Lebe den Berg",
+    "subtitle": "Natur, Geschichte und Erfahrungen",
+    "content": "Die Hacienda Bruzzoni hat das Potenzial, ein Ort zu werden, an dem sich Natur, Geschichte und Erfahrungen treffen. Wir wollen nicht nur einen Ort zum Besuchen anbieten. Wir wollen Gründe schaffen, zurückzukehren.",
+    "experiences_title": "Erfahrungen im Aufbau",
+    "experiences": {
+      "cafe": "Kaffee",
+      "cafe_desc": "Den Ursprung, den Anbau und die Verarbeitung von Kaffee kennenlernen.",
+      "senderismo": "Wandern und Trekking",
+      "senderismo_desc": "Bergpfade erkunden und die Landschaft aus einer anderen Perspektive entdecken.",
+      "trail": "Trail running",
+      "trail_desc": "Routen und Sportveranstaltungen unter Nutzung der natürlichen Umgebung schaffen.",
+      "ciclismo": "Mountainbiking",
+      "ciclismo_desc": "Erfahrungen für Abenteuer- und Naturliebhaber.",
+      "aves": "Vogelbeobachtung",
+      "aves_desc": "Die Biodiversität der Berge entdecken.",
+      "astronomia": "Astronomie",
+      "astronomia_desc": "Eine ideale Umgebung zur Beobachtung des Nachthimmels.",
+      "bienestar": "Wohlbefinden und Erholung",
+      "bienestar_desc": "Ein Ort, um vom Lärm abzuschalten und wieder mit der Natur in Kontakt zu kommen.",
+      "historia": "Geschichte",
+      "historia_desc": "Die Geschichte einer Familie, eines Anwesens und einer Kaffeetradition kennenlernen."
+    },
+    "construction_title": "Eine Erfahrung im Aufbau",
+    "construction_desc": "Die Hacienda Bruzzoni befindet sich in einer Phase der Wiederherstellung und Entwicklung. Einige Erfahrungen werden schrittweise integriert, sobald die notwendigen Infrastruktur-, Sicherheits-, Betriebs- und Servicebedingungen gegeben sind."
+  },
+  "elProyecto": {
+    "title": "Ein Erbe für die Zukunft",
+    "subtitle": "Familie + Unternehmen + Erbe",
+    "content_1": "Die Hacienda Bruzzoni entsteht aus einer Familiengeschichte. Aber ihre Zukunft erfordert eine unternehmerische Vision. Der Zweck des Projekts ist es, eine Struktur zu schaffen, die in der Lage ist, das Erbe zu bewahren, produktive Aktivitäten zu entwickeln, Einkommen zu generieren und den Wert des Anwesens schrittweise zu steigern.",
+    "content_2": "Die Vision sieht die Gründung eines Familienunternehmens vor, dessen rechtliche Struktur, Beteiligung und Rechte mit professioneller Beratung und durch entsprechende Vereinbarungen zwischen den Familienmitgliedern definiert werden müssen.",
+    "pillar_1": "Familie",
+    "pillar_1_desc": "Ein Projekt, das die verschiedenen Generationen vereint",
+    "pillar_2": "Unternehmen",
+    "pillar_2_desc": "Eine organisierte Struktur zur Verwaltung des Erbes",
+    "pillar_3": "Erbe",
+    "pillar_3_desc": "Das Erbe bewahren, entwickeln und weitergeben",
+    "quote": "Nicht jeder muss das Gleiche tun. Das Projekt muss verschiedene Formen der Beteiligung ermöglichen."
+  },
+  "naturaleza": {
+    "title": "Produzieren, ohne zu verlieren, was diesen Ort besonders macht",
+    "subtitle": "Ein Gleichgewicht zwischen Produktion, Erhaltung und verantwortungsvoller Nutzung",
+    "content_1": "Die Natur ist kein dekoratives Element der Hacienda Bruzzoni. Sie ist einer ihrer Hauptwerte. Daher muss die zukünftige Entwicklung ein Gleichgewicht zwischen Produktion, Erhaltung und verantwortungsvoller Nutzung des Territoriums anstreben.",
+    "content_2": "Die Möglichkeiten können nachhaltige Landwirtschaft, Kaffeewiederherstellung, Imkerei, Naturerlebnisse und andere Aktivitäten umfassen, die technisch und ökologisch machbar sind.",
+    "principle_title": "Unser Prinzip",
+    "principle": "Wert schaffen, ohne das natürliche Erbe zu zerstören, das diesen Wert generiert.",
+    "values": ["Nachhaltigkeit", "Erhaltung", "Biodiversität", "Respekt"]
+  },
+  "galeria": {
+    "title": "Die Erinnerung wird auch in Bildern bewahrt",
+    "subtitle": "Fotografien, die unsere Geschichte erzählen",
+    "note": "Jedes Bild ist Teil einer Geschichte, die es wert ist, bewahrt zu werden."
+  },
+  "contacto": {
+    "title": "Verbinden Sie sich mit Hacienda Bruzzoni",
+    "subtitle": "Möchten Sie unser Projekt kennenlernen?",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Ihr Name",
+      "email": "E-Mail",
+      "email_placeholder": "sie@email.com",
+      "message": "Nachricht",
+      "message_placeholder": "Erzählen Sie uns von Ihrem Interesse...",
+      "submit": "Nachricht senden"
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "description": "Wir bauen ein Projekt, das Erbe, Natur, Produktion und Zukunft verbindet.",
+      "location": "Standort",
+      "coordinates": "Berge von Aragua, Venezuela",
+      "interests": "Interessensgebiete",
+      "interests_list": [
+        "Spezialitätenkaffee",
+        "Naturtourismus",
+        "Umweltschutz",
+        "Bergabenteuer",
+        "Kooperationen und Partnerschaften"
+      ]
+    }
+  }
+}

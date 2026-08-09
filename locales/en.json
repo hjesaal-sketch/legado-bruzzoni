@@ -1,0 +1,166 @@
+{
+  "common": {
+    "read_more": "Read more",
+    "back": "Back",
+    "badge_development": "In development"
+  },
+  "hero": {
+    "title": "Honor the past. Build the future.",
+    "subtitle": "In the mountains of Venezuela, where coffee is part of history and the landscape holds the memory of several generations, there is a family legacy that was born with the arrival of Antonio Bruzzoni from Liguria, Italy.",
+    "cta": "Discover our story"
+  },
+  "home": {
+    "features": {
+      "title": "A legacy we want to preserve",
+      "subtitle": "Coffee. Nature. History. Experiences.",
+      "cafe": {
+        "title": "Coffee",
+        "description": "Reviving coffee tradition with quality and origin"
+      },
+      "naturaleza": {
+        "title": "Nature",
+        "description": "Mountains, landscapes and biodiversity in the heart of Aragua"
+      },
+      "historia": {
+        "title": "History",
+        "description": "Over a century of family legacy from Liguria to Venezuela"
+      },
+      "experiencias": {
+        "title": "Experiences",
+        "description": "Nature tourism, hiking, birdwatching and more"
+      }
+    },
+    "cta": "Learn more about our project",
+    "quote": "A legacy is not preserved just by remembering it. A legacy is preserved by taking action.",
+    "quote_author": "Legado Bruzzoni Project"
+  },
+  "laHacienda": {
+    "title": "The Estate",
+    "subtitle": "A story that began over a century ago",
+    "content_1": "Around 1872, an eighteen-year-old young man named Antonio Bruzzoni left Cogoleto, Liguria, Italy, and embarked on a journey to Venezuela. Over the years, he built his life, his family, and an agricultural legacy dedicated to coffee.",
+    "content_2": "Together with Tomasa Silva Silva, he formed a family whose descendants remain connected to these lands. The story of Hacienda Bruzzoni is not just the story of a property. It is the story of a family.",
+    "content_3": "It is the memory of those who worked these mountains before us. And it is also a responsibility: deciding what we do today with what we received.",
+    "sanJose_area": "Approximately 50 hectares",
+    "sanJose_desc": "With about 30 hectares historically dedicated to coffee cultivation.",
+    "laSiberia_area": "Approximately 90 hectares",
+    "laSiberia_desc": "With about 60 hectares historically linked to coffee cultivation.",
+    "cta": "Learn our history"
+  },
+  "nuestraHistoria": {
+    "title": "From Liguria to the mountains of Venezuela",
+    "subtitle": "A story worth continuing",
+    "content_1": "Antonio Bruzzoni was born around 1854 in Cogoleto, Liguria, Italy. At eighteen, he embarked on a journey to Venezuela, leaving behind his homeland to build a new life.",
+    "content_2": "Family memory tells that he may have traveled accompanied by a brother known as 'Yumin', although this episode is still part of the family's documentary research.",
+    "content_3": "In Venezuela, Antonio began to progressively build his legacy. The lands were incorporated through different mechanisms over time, including grants and acquisitions, until they formed the patrimonial ensemble we now know as Hacienda Bruzzoni.",
+    "content_4": "Coffee became the center of that activity. Generations later, its coffee plantations, infrastructure, and landscape remain as testimony to that effort.",
+    "quote_title": "A story worth continuing",
+    "quote": "The goal is not to turn the past into a museum piece. It is to make that past produce a future again."
+  },
+  "sanJose": {
+    "title": "San José (Bucaral)",
+    "subtitle": "Coffee land",
+    "content_1": "San José, also known as Bucaral, is part of the historical heritage of Hacienda Bruzzoni. With approximately 50 hectares, about 30 were historically linked to coffee cultivation.",
+    "content_2": "The recovery of these lands is part of the hacienda's productive vision. The project contemplates progressively evaluating the state of the coffee plantations, recovering viable areas, and rebuilding a productive chain capable of generating value from the farm itself.",
+    "content_3": "It is not just about planting again. It is about recovering knowledge, quality, identity, and purpose."
+  },
+  "laSiberia": {
+    "title": "La Siberia",
+    "subtitle": "A name born from the landscape",
+    "content_1": "La Siberia comprises approximately 90 hectares of the family heritage. Its name, according to family tradition, was chosen by Antonio as a reference to the climatic characteristics of the place, which reminded him of the Russian region of Siberia.",
+    "content_2": "Approximately 60 hectares are historically linked to coffee cultivation. La Siberia represents a fundamental part of the productive and natural potential of Hacienda Bruzzoni.",
+    "content_3": "Its mountains, climate, vegetation, and landscapes also open possibilities for the development of nature, contemplation, and adventure experiences."
+  },
+  "nuestroCafe": {
+    "title": "Coffee as heritage",
+    "subtitle": "From the mountain to the cup",
+    "content_1": "Coffee was the productive origin of this heritage. Today we want to recover that tradition and transform it into a contemporary quality proposal.",
+    "content_2": "A brand born from a real story. A coffee whose origin is in the same lands that for generations have been linked to our family.",
+    "brand_title": "BRUZZONI CAFÉ",
+    "brand_subtitle": "A story that begins again",
+    "donAntonio_title": "Don Antonio",
+    "donAntonio_desc": "The first expression of Bruzzoni Café will bear the name of the one who started this story. A tribute to a man who arrived in Venezuela very young and dedicated his life to building a family and a legacy in these mountains.",
+    "process_title": "From cultivation to the cup",
+    "process_steps": ["Cultivation", "Harvest", "Processing", "Drying", "Selection", "Roasting", "Brand", "Experience"],
+    "process_note": "Productive recovery will be accompanied by technical evaluation and the search for specialized allies."
+  },
+  "turismo": {
+    "title": "Live the mountain",
+    "subtitle": "Nature, history and experiences",
+    "content": "Hacienda Bruzzoni has the potential to become a place where nature, history and experiences meet. We don't just want to offer a place to visit. We want to create reasons to return.",
+    "experiences_title": "Experiences under construction",
+    "experiences": {
+      "cafe": "Coffee",
+      "cafe_desc": "Learn about the origin, cultivation and processing of coffee.",
+      "senderismo": "Hiking and trekking",
+      "senderismo_desc": "Explore mountain trails and discover the landscape from another perspective.",
+      "trail": "Trail running",
+      "trail_desc": "Create routes and sporting events taking advantage of the natural environment.",
+      "ciclismo": "Mountain biking",
+      "ciclismo_desc": "Experiences for those seeking adventure and nature.",
+      "aves": "Birdwatching",
+      "aves_desc": "Discover the biodiversity of the mountains.",
+      "astronomia": "Astronomy",
+      "astronomia_desc": "An ideal environment for observing the night sky.",
+      "bienestar": "Wellness and rest",
+      "bienestar_desc": "A place to disconnect from noise and reconnect with nature.",
+      "historia": "History",
+      "historia_desc": "Learn the history of a family, an estate and a coffee tradition."
+    },
+    "construction_title": "An experience under construction",
+    "construction_desc": "Hacienda Bruzzoni is in a recovery and development stage. Some experiences will be progressively incorporated as the necessary infrastructure, safety, operation and service conditions exist."
+  },
+  "elProyecto": {
+    "title": "A legacy for the future",
+    "subtitle": "Family + Company + Heritage",
+    "content_1": "Hacienda Bruzzoni is born from a family story. But its future requires a business vision. The purpose of the project is to create a structure capable of preserving the heritage, developing productive activities, generating income, and progressively increasing the value of the estate.",
+    "content_2": "The vision contemplates the creation of a family business, whose legal structure, participation and rights must be defined with professional advice and through the corresponding agreements among family members.",
+    "pillar_1": "Family",
+    "pillar_1_desc": "A project that unites different generations",
+    "pillar_2": "Company",
+    "pillar_2_desc": "An organized structure to manage the heritage",
+    "pillar_3": "Heritage",
+    "pillar_3_desc": "Preserve, develop and transmit the legacy",
+    "quote": "Not everyone has to do the same thing. The project must allow different forms of participation."
+  },
+  "naturaleza": {
+    "title": "Produce without losing what makes this place special",
+    "subtitle": "A balance between production, conservation and responsible use",
+    "content_1": "Nature is not a decorative element of Hacienda Bruzzoni. It is one of its main assets. Therefore, future development must seek a balance between production, conservation and responsible use of the territory.",
+    "content_2": "Possibilities may include sustainable agriculture, coffee recovery, beekeeping, nature experiences and other activities that are technically and environmentally viable.",
+    "principle_title": "Our principle",
+    "principle": "Create value without destroying the natural heritage that generates that value.",
+    "values": ["Sustainability", "Conservation", "Biodiversity", "Respect"]
+  },
+  "galeria": {
+    "title": "Memory is also preserved in images",
+    "subtitle": "Photographs that tell our story",
+    "note": "Each image is part of a story worth preserving."
+  },
+  "contacto": {
+    "title": "Connect with Hacienda Bruzzoni",
+    "subtitle": "Do you want to know our project?",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "you@email.com",
+      "message": "Message",
+      "message_placeholder": "Tell us about your interest...",
+      "submit": "Send message"
+    },
+    "info": {
+      "title": "Contact information",
+      "description": "We are building a project that connects heritage, nature, production and future.",
+      "location": "Location",
+      "coordinates": "Mountains of Aragua, Venezuela",
+      "interests": "Areas of interest",
+      "interests_list": [
+        "Specialty coffee",
+        "Nature tourism",
+        "Environmental conservation",
+        "Mountain experiences",
+        "Collaborations and partnerships"
+      ]
+    }
+  }
+}

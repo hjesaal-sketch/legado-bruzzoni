@@ -1,0 +1,9 @@
+│       ├── hero-bg.jpg
+│       ├── historia-familia.jpg
+│       ├── san-jose.jpg
+│       ├── la-siberia.jpg
+│       ├── cafe-cultivo.jpg
+│       ├── cafe-grano.jpg
+│       ├── turismo-senderismo.jpg
+│       ├── turismo-aves.jpg
+│       └── turismo-astronomia.jpg

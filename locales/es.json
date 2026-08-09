@@ -1,0 +1,166 @@
+{
+  "common": {
+    "read_more": "Leer más",
+    "back": "Volver",
+    "badge_development": "En desarrollo"
+  },
+  "hero": {
+    "title": "Honrar el pasado. Construir el futuro.",
+    "subtitle": "En las montañas de Venezuela, donde el café forma parte de la historia y el paisaje guarda la memoria de varias generaciones, existe un patrimonio familiar que nació con la llegada de Antonio Bruzzoni desde Liguria, Italia.",
+    "cta": "Descubrir nuestra historia"
+  },
+  "home": {
+    "features": {
+      "title": "Un legado que queremos conservar",
+      "subtitle": "Café. Naturaleza. Historia. Experiencias.",
+      "cafe": {
+        "title": "Café",
+        "description": "Recuperar la tradición cafetalera con calidad y origen"
+      },
+      "naturaleza": {
+        "title": "Naturaleza",
+        "description": "Montañas, paisajes y biodiversidad en el corazón de Aragua"
+      },
+      "historia": {
+        "title": "Historia",
+        "description": "Más de un siglo de legado familiar desde Liguria hasta Venezuela"
+      },
+      "experiencias": {
+        "title": "Experiencias",
+        "description": "Turismo de naturaleza, senderismo, avistamiento de aves y más"
+      }
+    },
+    "cta": "Conoce más sobre nuestro proyecto",
+    "quote": "Un legado no se conserva únicamente recordándolo. Un legado se conserva actuando.",
+    "quote_author": "Proyecto Legado Bruzzoni"
+  },
+  "laHacienda": {
+    "title": "La Hacienda",
+    "subtitle": "Una historia que comenzó hace más de un siglo",
+    "content_1": "Hacia 1872, un joven de aproximadamente dieciocho años llamado Antonio Bruzzoni dejó Cogoleto, en Liguria, Italia, y emprendió el viaje hacia Venezuela. Con el paso de los años construyó aquí su vida, su familia y un patrimonio agrícola dedicado al café.",
+    "content_2": "Junto a Tomasa Silva Silva, formó una familia cuyos descendientes continúan vinculados a estas tierras. La historia de la Hacienda Bruzzoni no es solamente la historia de una propiedad. Es la historia de una familia.",
+    "content_3": "Es la memoria de quienes trabajaron estas montañas antes que nosotros. Y es también una responsabilidad: decidir qué hacemos hoy con aquello que recibimos.",
+    "sanJose_area": "Aproximadamente 50 hectáreas",
+    "sanJose_desc": "Con unas 30 hectáreas históricamente destinadas al cultivo de café.",
+    "laSiberia_area": "Aproximadamente 90 hectáreas",
+    "laSiberia_desc": "Con unas 60 hectáreas vinculadas históricamente al cultivo de café.",
+    "cta": "Conocer nuestra historia"
+  },
+  "nuestraHistoria": {
+    "title": "De Liguria a las montañas de Venezuela",
+    "subtitle": "Una historia que merece continuar",
+    "content_1": "Antonio Bruzzoni nació aproximadamente en 1854 en Cogoleto, Liguria, Italia. A los dieciocho años emprendió el viaje hacia Venezuela, dejando atrás su tierra natal para construir una nueva vida.",
+    "content_2": "La memoria familiar cuenta que pudo haber viajado acompañado por un hermano conocido como 'Yumin', aunque este episodio todavía forma parte de la investigación documental de la familia.",
+    "content_3": "En Venezuela, Antonio comenzó a construir progresivamente su patrimonio. Las tierras fueron incorporándose mediante diferentes mecanismos a lo largo del tiempo, incluyendo adjudicaciones y adquisiciones, hasta conformar el conjunto patrimonial que hoy conocemos como Hacienda Bruzzoni.",
+    "content_4": "El café se convirtió en el centro de aquella actividad. Generaciones después, sus cafetales, su infraestructura y su paisaje permanecen como testimonio de aquel esfuerzo.",
+    "quote_title": "Una historia que merece continuar",
+    "quote": "El objetivo no es convertir el pasado en una pieza de museo. Es hacer que ese pasado vuelva a producir futuro."
+  },
+  "sanJose": {
+    "title": "San José (Bucaral)",
+    "subtitle": "Tierra de café",
+    "content_1": "San José, también conocido como Bucaral, forma parte del patrimonio histórico de la Hacienda Bruzzoni. Con aproximadamente 50 hectáreas, alrededor de 30 estuvieron históricamente vinculadas al cultivo de café.",
+    "content_2": "La recuperación de estas tierras forma parte de la visión productiva de la hacienda. El proyecto contempla evaluar progresivamente el estado de los cafetales, recuperar las áreas que resulten viables y reconstruir una cadena productiva capaz de generar valor desde la propia finca.",
+    "content_3": "No se trata solamente de volver a sembrar. Se trata de recuperar conocimiento, calidad, identidad y propósito."
+  },
+  "laSiberia": {
+    "title": "La Siberia",
+    "subtitle": "Un nombre nacido del paisaje",
+    "content_1": "La Siberia comprende aproximadamente 90 hectáreas del patrimonio familiar. Su nombre, según la tradición familiar, fue elegido por Antonio como referencia a las características climáticas del lugar, que le recordaban a la región rusa de Siberia.",
+    "content_2": "Aproximadamente 60 hectáreas están vinculadas históricamente al cultivo de café. La Siberia representa una parte fundamental del potencial productivo y natural de Hacienda Bruzzoni.",
+    "content_3": "Sus montañas, clima, vegetación y paisajes también abren posibilidades para el desarrollo de experiencias de naturaleza, contemplación y aventura."
+  },
+  "nuestroCafe": {
+    "title": "El café como herencia",
+    "subtitle": "De la montaña a la taza",
+    "content_1": "El café fue el origen productivo de este patrimonio. Hoy queremos recuperar esa tradición y transformarla en una propuesta contemporánea de calidad.",
+    "content_2": "Una marca nacida de una historia real. Un café cuyo origen está en las mismas tierras que durante generaciones estuvieron vinculadas a nuestra familia.",
+    "brand_title": "BRUZZONI CAFÉ",
+    "brand_subtitle": "Una historia que vuelve a comenzar",
+    "donAntonio_title": "Don Antonio",
+    "donAntonio_desc": "La primera expresión de Bruzzoni Café llevará el nombre de quien comenzó esta historia. Un homenaje a un hombre que llegó a Venezuela siendo muy joven y que dedicó su vida a construir una familia y un patrimonio en estas montañas.",
+    "process_title": "Del cultivo a la taza",
+    "process_steps": ["Cultivo", "Cosecha", "Beneficio", "Secado", "Selección", "Tostado", "Marca", "Experiencia"],
+    "process_note": "La recuperación productiva será acompañada por evaluación técnica y búsqueda de aliados especializados."
+  },
+  "turismo": {
+    "title": "Vive la montaña",
+    "subtitle": "Naturaleza, historia y experiencias",
+    "content": "Hacienda Bruzzoni tiene el potencial para convertirse en un lugar donde naturaleza, historia y experiencias se encuentren. No queremos ofrecer solamente un lugar para visitar. Queremos crear razones para regresar.",
+    "experiences_title": "Experiencias en construcción",
+    "experiences": {
+      "cafe": "Café",
+      "cafe_desc": "Conocer el origen, el cultivo y la transformación del café.",
+      "senderismo": "Senderismo y trekking",
+      "senderismo_desc": "Recorrer caminos de montaña y descubrir el paisaje desde otra perspectiva.",
+      "trail": "Trail running",
+      "trail_desc": "Crear rutas y eventos deportivos aprovechando el entorno natural.",
+      "ciclismo": "Ciclismo de montaña",
+      "ciclismo_desc": "Experiencias para quienes buscan aventura y naturaleza.",
+      "aves": "Observación de aves",
+      "aves_desc": "Descubrir la biodiversidad de las montañas.",
+      "astronomia": "Astronomía",
+      "astronomia_desc": "Un entorno ideal para la observación del cielo nocturno.",
+      "bienestar": "Bienestar y descanso",
+      "bienestar_desc": "Un lugar para desconectarse del ruido y recuperar el contacto con la naturaleza.",
+      "historia": "Historia",
+      "historia_desc": "Conocer la historia de una familia, una hacienda y una tradición cafetalera."
+    },
+    "construction_title": "Una experiencia en construcción",
+    "construction_desc": "Hacienda Bruzzoni se encuentra en una etapa de recuperación y desarrollo. Algunas experiencias serán incorporadas progresivamente a medida que existan las condiciones de infraestructura, seguridad, operación y servicio necesarias."
+  },
+  "elProyecto": {
+    "title": "Un legado para el futuro",
+    "subtitle": "Familia + Empresa + Patrimonio",
+    "content_1": "Hacienda Bruzzoni nace de una historia familiar. Pero su futuro requiere una visión empresarial. El propósito del proyecto es crear una estructura capaz de conservar el patrimonio, desarrollar actividades productivas, generar ingresos y aumentar progresivamente el valor de la hacienda.",
+    "content_2": "La visión contempla la creación de una empresa familiar, cuya estructura jurídica, participación y derechos deberán ser definidos con asesoría profesional y mediante los acuerdos correspondientes entre los miembros de la familia.",
+    "pillar_1": "Familia",
+    "pillar_1_desc": "Un proyecto que une a las diferentes generaciones",
+    "pillar_2": "Empresa",
+    "pillar_2_desc": "Una estructura ordenada para administrar el patrimonio",
+    "pillar_3": "Patrimonio",
+    "pillar_3_desc": "Conservar, desarrollar y transmitir el legado",
+    "quote": "No todos tienen que hacer lo mismo. El proyecto debe permitir diferentes formas de participación."
+  },
+  "naturaleza": {
+    "title": "Producir sin perder lo que hace especial a este lugar",
+    "subtitle": "Un equilibrio entre producción, conservación y uso responsable",
+    "content_1": "La naturaleza no es un elemento decorativo de Hacienda Bruzzoni. Es uno de sus principales activos. Por eso, el desarrollo futuro deberá buscar un equilibrio entre producción, conservación y uso responsable del territorio.",
+    "content_2": "Las posibilidades pueden incluir agricultura sostenible, recuperación cafetalera, apicultura, experiencias de naturaleza y otras actividades que sean técnica y ambientalmente viables.",
+    "principle_title": "Nuestro principio",
+    "principle": "Crear valor sin destruir el patrimonio natural que genera ese valor.",
+    "values": ["Sostenibilidad", "Conservación", "Biodiversidad", "Respeto"]
+  },
+  "galeria": {
+    "title": "La memoria también se conserva en imágenes",
+    "subtitle": "Fotografías que cuentan nuestra historia",
+    "note": "Cada imagen forma parte de una historia que merece ser conservada."
+  },
+  "contacto": {
+    "title": "Conecta con Hacienda Bruzzoni",
+    "subtitle": "¿Quieres conocer nuestro proyecto?",
+    "form": {
+      "name": "Nombre",
+      "name_placeholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "email_placeholder": "tu@email.com",
+      "message": "Mensaje",
+      "message_placeholder": "Cuéntanos sobre tu interés...",
+      "submit": "Enviar mensaje"
+    },
+    "info": {
+      "title": "Información de contacto",
+      "description": "Estamos construyendo un proyecto que conecta patrimonio, naturaleza, producción y futuro.",
+      "location": "Ubicación",
+      "coordinates": "Montañas de Aragua, Venezuela",
+      "interests": "Áreas de interés",
+      "interests_list": [
+        "Café de especialidad",
+        "Turismo de naturaleza",
+        "Conservación ambiental",
+        "Experiencias de montaña",
+        "Colaboraciones y alianzas"
+      ]
+    }
+  }
+}
