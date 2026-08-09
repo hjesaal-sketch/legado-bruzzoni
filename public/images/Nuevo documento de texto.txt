@@ -7,3 +7,8 @@
 │       ├── turismo-senderismo.jpg
 │       ├── turismo-aves.jpg
 │       └── turismo-astronomia.jpg
+
+Archivo	Ruta
+Hero	public/images/don-antonio-hero.jpg
+Retrato	public/images/don-antonio-retrato.jpg
+Familia	public/images/familia-bruzzoni.jpg

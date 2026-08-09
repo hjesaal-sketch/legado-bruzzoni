@@ -11,6 +11,7 @@ export function Header({ lang }) {
     {
       label: 'La Hacienda',
       items: [
+        { key: 'donantonio', label: 'Don Antonio', path: '/don-antonio' },
         { key: 'estate', label: 'Historia', path: '/la-hacienda' },
         { key: 'sanJose', label: 'San José', path: '/san-jose' },
         { key: 'siberia', label: 'La Siberia', path: '/la-siberia' },
