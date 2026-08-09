@@ -7,18 +7,36 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 export function Header({ lang }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = [
-    { key: 'home', label: 'Inicio', path: '/' },
-    { key: 'estate', label: 'La Hacienda', path: '/la-hacienda' },
-    { key: 'history', label: 'Nuestra Historia', path: '/nuestra-historia' },
-    { key: 'sanJose', label: 'San José', path: '/san-jose' },
-    { key: 'siberia', label: 'La Siberia', path: '/la-siberia' },
-    { key: 'coffee', label: 'Nuestro Café', path: '/nuestro-cafe' },
-    { key: 'experiences', label: 'Turismo y Experiencias', path: '/turismo-y-experiencias' },
-    { key: 'project', label: 'El Proyecto', path: '/el-proyecto' },
-    { key: 'nature', label: 'Naturaleza', path: '/naturaleza' },
-    { key: 'gallery', label: 'Galería', path: '/galeria' },
-    { key: 'contact', label: 'Contacto', path: '/contacto' },
+  const menuGroups = [
+    {
+      label: 'La Hacienda',
+      items: [
+        { key: 'estate', label: 'Historia', path: '/la-hacienda' },
+        { key: 'sanJose', label: 'San José', path: '/san-jose' },
+        { key: 'siberia', label: 'La Siberia', path: '/la-siberia' },
+      ]
+    },
+    {
+      label: 'Productos',
+      items: [
+        { key: 'coffee', label: 'Nuestro Café', path: '/nuestro-cafe' },
+        { key: 'experiences', label: 'Experiencias', path: '/turismo-y-experiencias' },
+      ]
+    },
+    {
+      label: 'Proyecto',
+      items: [
+        { key: 'project', label: 'El Proyecto', path: '/el-proyecto' },
+        { key: 'nature', label: 'Naturaleza', path: '/naturaleza' },
+      ]
+    },
+    {
+      label: 'Medios',
+      items: [
+        { key: 'gallery', label: 'Galería', path: '/galeria' },
+        { key: 'contact', label: 'Contacto', path: '/contacto' },
+      ]
+    },
   ];
 
   return (
@@ -33,15 +51,24 @@ export function Header({ lang }) {
           </Link>
 
           {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center gap-4 xl:gap-6">
-            {menuItems.map((item) => (
-              <Link
-                key={item.key}
-                href={`/${lang}${item.path}`}
-                className="text-sm text-black/80 hover:text-brown transition-colors font-medium whitespace-nowrap"
-              >
-                {item.label}
-              </Link>
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
+            {menuGroups.map((group) => (
+              <div key={group.label} className="relative group">
+                <button className="text-sm text-black/80 hover:text-brown transition-colors font-medium">
+                  {group.label}
+                </button>
+                <div className="absolute top-full left-0 mt-1 bg-cream border border-brown/10 rounded-lg shadow-lg py-2 min-w-[160px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  {group.items.map((item) => (
+                    <Link
+                      key={item.key}
+                      href={`/${lang}${item.path}`}
+                      className="block px-4 py-2 text-sm text-black/70 hover:text-brown hover:bg-brown/5 transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
             ))}
             <LanguageSwitcher lang={lang} />
           </nav>
@@ -65,16 +92,23 @@ export function Header({ lang }) {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden pb-4 max-h-[80vh] overflow-y-auto">
-            <nav className="flex flex-col space-y-2">
-              {menuItems.map((item) => (
-                <Link
-                  key={item.key}
-                  href={`/${lang}${item.path}`}
-                  className="text-black/80 hover:text-brown transition-colors font-medium py-2 border-b border-brown/5"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
+            <nav className="flex flex-col space-y-1">
+              {menuGroups.map((group) => (
+                <div key={group.label}>
+                  <p className="text-xs font-bold text-brown uppercase tracking-wider pt-3 pb-1 border-b border-brown/10">
+                    {group.label}
+                  </p>
+                  {group.items.map((item) => (
+                    <Link
+                      key={item.key}
+                      href={`/${lang}${item.path}`}
+                      className="block text-black/80 hover:text-brown transition-colors font-medium py-2 pl-2"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
               ))}
               <div className="pt-3 mt-2 border-t border-brown/10">
                 <LanguageSwitcher lang={lang} />
