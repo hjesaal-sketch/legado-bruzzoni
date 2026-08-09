@@ -11,7 +11,7 @@ export default async function DonAntonioPage({ params: { lang } }) {
       <section 
         className="relative min-h-[60vh] flex items-center justify-center overflow-hidden"
         style={{
-          backgroundImage: 'url(/images/don-antonio-hero.jpg)',
+          backgroundImage: 'url(/images/don-antonio-hero.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
