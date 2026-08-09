@@ -1,8 +1,8 @@
-import { getDictionary } from '../../lib/dictionary';
-import { Hero } from '../../components/Hero';
-import { SectionTitle } from '../../components/SectionTitle';
-import { Button } from '../../components/Button';
-import { ImageCard } from '../../components/ImageCard';
+import { getDictionary } from '../../../lib/dictionary';
+import { Hero } from '../../../components/Hero';
+import { SectionTitle } from '../../../components/SectionTitle';
+import { Button } from '../../../components/Button';
+import { ImageCard } from '../../../components/ImageCard';
 
 export default async function HomePage({ params: { lang } }) {
   const dict = await getDictionary(lang);
