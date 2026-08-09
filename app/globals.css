@@ -4,25 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --color-cream: #F5F2EB;
-  --color-black: #1A1A1A;
-  --color-brown: #6A4E3C;
-  --color-silver: #8C7A6B;
-  --color-gold: #C9A96E;
-}
-
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-cream text-black font-sans antialiased transition-colors duration-300;
+    @apply bg-cream text-black font-sans antialiased transition-colors duration-300 dark:bg-black dark:text-cream;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-black dark:text-cream;
+    @apply font-serif;
   }
 
   h1 {
@@ -61,11 +53,9 @@
   }
 
   .badge-development {
-    @apply bg-black/80 text-cream text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider dark:bg-black/90;
+    @apply bg-black/80 text-cream text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider;
   }
-}
 
-@layer utilities {
   .bg-cream {
     @apply dark:bg-black/95;
   }
@@ -110,18 +100,6 @@
     @apply dark:border-gold;
   }
 
-  .hover\:text-brown:hover {
-    @apply dark:hover:text-gold;
-  }
-
-  .hover\:bg-brown\/10:hover {
-    @apply dark:hover:bg-gold/10;
-  }
-
-  .hover\:bg-brown\/5:hover {
-    @apply dark:hover:bg-gold/5;
-  }
-
   .bg-cream\/95 {
     @apply dark:bg-black/95;
   }
@@ -160,9 +138,5 @@
 
   .text-gold {
     @apply dark:text-gold;
-  }
-
-  .border-l-brown {
-    @apply dark:border-l-gold;
   }
 }
