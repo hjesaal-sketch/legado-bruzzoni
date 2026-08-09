@@ -18,11 +18,11 @@
   }
 
   body {
-    @apply bg-cream text-black font-sans antialiased;
+    @apply bg-cream text-black font-sans antialiased transition-colors duration-300;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+    @apply font-serif text-black dark:text-cream;
   }
 
   h1 {
@@ -30,12 +30,12 @@
   }
 
   h2 {
-    @apply text-3xl md:text-4xl font-bold text-brown relative inline-block;
+    @apply text-3xl md:text-4xl font-bold text-brown dark:text-gold relative inline-block;
   }
 
   h2::after {
     content: '';
-    @apply absolute -bottom-3 left-0 w-16 h-0.5 bg-brown;
+    @apply absolute -bottom-3 left-0 w-16 h-0.5 bg-brown dark:bg-gold;
   }
 
   h3 {
@@ -49,11 +49,11 @@
   }
 
   .btn-primary {
-    @apply bg-brown text-cream border border-brown px-8 py-3 uppercase tracking-wider text-sm font-semibold transition-all duration-300 hover:bg-transparent hover:text-brown;
+    @apply bg-brown text-cream border border-brown px-8 py-3 uppercase tracking-wider text-sm font-semibold transition-all duration-300 hover:bg-transparent hover:text-brown dark:bg-gold/20 dark:text-gold dark:border-gold/30 dark:hover:bg-gold/30;
   }
 
   .btn-outline {
-    @apply bg-transparent text-brown border border-brown px-8 py-3 uppercase tracking-wider text-sm font-semibold transition-all duration-300 hover:bg-brown hover:text-cream;
+    @apply bg-transparent text-brown border border-brown px-8 py-3 uppercase tracking-wider text-sm font-semibold transition-all duration-300 hover:bg-brown hover:text-cream dark:text-gold dark:border-gold/30 dark:hover:bg-gold/20;
   }
 
   .section-padding {
@@ -61,26 +61,11 @@
   }
 
   .badge-development {
-    @apply bg-black/80 text-cream text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider;
+    @apply bg-black/80 text-cream text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider dark:bg-black/90;
   }
-@layer base {
-  /* Modo oscuro por defecto en elementos base */
-  body {
-    @apply bg-cream text-black dark:bg-black dark:text-cream transition-colors duration-300;
-  }
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply text-black dark:text-cream;
-  }
-
-  h2 {
-    @apply text-brown dark:text-gold;
-  }
-
-  h2::after {
-    @apply bg-brown dark:bg-gold;
-  }
-
+@layer utilities {
   .bg-cream {
     @apply dark:bg-black/95;
   }
@@ -169,19 +154,15 @@
     @apply dark:border-gold/30;
   }
 
-  .btn-primary {
-    @apply dark:bg-gold/20 dark:text-gold dark:border-gold/30 dark:hover:bg-gold/30;
-  }
-
-  .btn-outline {
-    @apply dark:text-gold dark:border-gold/30 dark:hover:bg-gold/20;
-  }
-
   .bg-black\/80 {
     @apply dark:bg-black/90;
   }
 
   .text-gold {
     @apply dark:text-gold;
+  }
+
+  .border-l-brown {
+    @apply dark:border-l-gold;
   }
 }
