@@ -11,7 +11,7 @@ export default async function DonAntonioPage({ params: { lang } }) {
       <section 
         className="relative min-h-[60vh] flex items-center justify-center overflow-hidden"
         style={{
-          backgroundImage: 'url(/images/don-antonio-hero.png)',
+          backgroundImage: 'url(/images/don-antonio-hero.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -35,7 +35,7 @@ export default async function DonAntonioPage({ params: { lang } }) {
             <div className="md:col-span-1">
               <div className="rounded-lg overflow-hidden shadow-lg bg-brown/5">
                 <img
-                  src="/images/don-antonio-retrato.jpg"
+                  src="/images/don-antonio-retrato.png"
                   alt="Retrato de Antonio Bruzzoni Delfino"
                   className="w-full h-auto object-cover"
                 />
