@@ -57,7 +57,7 @@
   }
 }
 
-/* Dark mode - usando selectores directos, sin @apply */
+/* Dark mode - selectores directos */
 .dark body {
   background-color: #000;
   color: #F5F2EB;
@@ -79,6 +79,10 @@
   color: #F5F2EB;
 }
 
+.dark .text-black\/70 {
+  color: rgba(245, 242, 235, 0.7);
+}
+
 .dark .text-black\/80 {
   color: rgba(245, 242, 235, 0.8);
 }
@@ -88,7 +92,7 @@
 }
 
 .dark .bg-cream {
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: #1a1a1a;
 }
 
 .dark .bg-cream\/95 {
@@ -112,7 +116,7 @@
 }
 
 .dark .border-brown\/10 {
-  border-color: rgba(201, 169, 110, 0.1);
+  border-color: rgba(201, 169, 110, 0.15);
 }
 
 .dark .border-brown\/20 {
@@ -132,7 +136,7 @@
 }
 
 .dark .shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.8), 0 4px 6px -2px rgba(0, 0, 0, 0.6);
 }
 
 .dark .btn-primary {
@@ -169,4 +173,20 @@
 
 .dark .border-l-4 {
   border-left-color: #C9A96E;
+}
+
+.dark .hover\:bg-brown\/5:hover {
+  background-color: rgba(201, 169, 110, 0.1);
+}
+
+.dark .hover\:text-brown:hover {
+  color: #C9A96E;
+}
+
+.dark .border-b {
+  border-bottom-color: rgba(201, 169, 110, 0.1);
+}
+
+.dark .border-b-brown\/10 {
+  border-bottom-color: rgba(201, 169, 110, 0.1);
 }
