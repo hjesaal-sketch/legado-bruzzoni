@@ -1,6 +1,6 @@
-import { getDictionary } from '../../../lib/dictionary';
-import { SectionTitle } from '../../../components/SectionTitle';
-import { Button } from '../../../components/Button';
+import { getDictionary } from '../../lib/dictionary';
+import { SectionTitle } from '../../components/SectionTitle';
+import { Button } from '../../components/Button';
 
 export default async function LaSiberiaPage({ params: { lang } }) {
   const dict = await getDictionary(lang);

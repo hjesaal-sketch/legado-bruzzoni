@@ -3,7 +3,6 @@ import { Hero } from '../../components/Hero';
 import { SectionTitle } from '../../components/SectionTitle';
 import { Button } from '../../components/Button';
 import { ImageCard } from '../../components/ImageCard';
-import { BadgeDevelopment } from '../../components/BadgeDevelopment';
 
 export default async function HomePage({ params: { lang } }) {
   const dict = await getDictionary(lang);

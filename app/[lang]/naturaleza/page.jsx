@@ -1,5 +1,5 @@
-import { getDictionary } from '../../../lib/dictionary';
-import { SectionTitle } from '../../../components/SectionTitle';
+import { getDictionary } from '../../lib/dictionary';
+import { SectionTitle } from '../../components/SectionTitle';
 
 export default async function NaturalezaPage({ params: { lang } }) {
   const dict = await getDictionary(lang);

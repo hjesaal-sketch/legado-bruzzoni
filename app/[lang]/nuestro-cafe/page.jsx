@@ -1,7 +1,7 @@
-import { getDictionary } from '../../../lib/dictionary';
-import { SectionTitle } from '../../../components/SectionTitle';
-import { Button } from '../../../components/Button';
-import { BadgeDevelopment } from '../../../components/BadgeDevelopment';
+import { getDictionary } from '../../lib/dictionary';
+import { SectionTitle } from '../../components/SectionTitle';
+import { Button } from '../../components/Button';
+import { BadgeDevelopment } from '../../components/BadgeDevelopment';
 
 export default async function NuestroCafePage({ params: { lang } }) {
   const dict = await getDictionary(lang);
