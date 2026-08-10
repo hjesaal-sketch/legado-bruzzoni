@@ -3,6 +3,7 @@ import { SectionTitle } from '@/app/components/SectionTitle';
 import { BadgeDevelopment } from '@/app/components/BadgeDevelopment';
 import { ImageCard } from '@/app/components/ImageCard';
 
+export const dynamic = 'force-dynamic';
 export default async function TurismoExperienciasPage({ params: { lang } }) {
   const dict = await getDictionary(lang);
 

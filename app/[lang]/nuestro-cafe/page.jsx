@@ -3,6 +3,7 @@ import { SectionTitle } from '@/app/components/SectionTitle';
 import { Button } from '@/app/components/Button';
 import { BadgeDevelopment } from '@/app/components/BadgeDevelopment';
 
+export const dynamic = 'force-dynamic';
 export default async function NuestroCafePage({ params: { lang } }) {
   const dict = await getDictionary(lang);
 

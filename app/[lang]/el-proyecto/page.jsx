@@ -1,6 +1,7 @@
 import { getDictionary } from '@/app/lib/dictionary';
 import { SectionTitle } from '@/app/components/SectionTitle';
 
+export const dynamic = 'force-dynamic';
 export default async function ElProyectoPage({ params: { lang } }) {
   const dict = await getDictionary(lang);
 
