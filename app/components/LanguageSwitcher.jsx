@@ -17,15 +17,19 @@ export function LanguageSwitcher({ lang }) {
   const router = useRouter();
 
   const getCleanPath = () => {
+    // Remover el prefijo de idioma de la URL
     const segments = pathname.split('/');
+    // Si el primer segmento es un código de idioma (2 letras), removerlo
     if (segments.length > 1 && segments[1].length === 2) {
       return '/' + segments.slice(2).join('/');
     }
+    // Si no hay prefijo de idioma, devolver la ruta completa
     return pathname;
   };
 
   const handleLanguageChange = (newLang) => {
     const cleanPath = getCleanPath();
+    // Si la ruta limpia está vacía o es solo '/', redirigir a la raíz del idioma
     const newPath = cleanPath === '/' || cleanPath === '' ? `/${newLang}` : `/${newLang}${cleanPath}`;
     router.push(newPath);
     setIsOpen(false);
@@ -37,7 +41,7 @@ export function LanguageSwitcher({ lang }) {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1 text-sm text-black/80 hover:text-brown transition-colors font-medium"
+        className="flex items-center gap-1 text-sm text-black/80 hover:text-brown transition-colors font-medium dark:text-cream/80 dark:hover:text-gold"
       >
         {currentLang.label}
         <svg className={`w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,12 +50,16 @@ export function LanguageSwitcher({ lang }) {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 mt-1 bg-cream border border-brown/10 rounded-lg shadow-lg py-1 min-w-[120px] z-50">
+        <div className="absolute top-full right-0 mt-1 bg-cream dark:bg-[#1a1a1a] border border-brown/10 dark:border-gold/10 rounded-lg shadow-lg py-1 min-w-[140px] z-50">
           {languages.map((l) => (
             <button
               key={l.code}
               onClick={() => handleLanguageChange(l.code)}
-              className={`w-full text-left px-4 py-2 text-sm hover:bg-brown/10 transition-colors ${lang === l.code ? 'text-brown font-semibold' : 'text-black/70'}`}
+              className={`w-full text-left px-4 py-2 text-sm hover:bg-brown/5 dark:hover:bg-gold/10 transition-colors ${
+                lang === l.code 
+                  ? 'text-brown dark:text-gold font-semibold' 
+                  : 'text-black/70 dark:text-cream/70 hover:text-brown dark:hover:text-gold'
+              }`}
             >
               {l.label} - {l.name}
             </button>
