@@ -20,10 +20,10 @@ export default async function DonAntonioPage({ params: { lang } }) {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 container-custom text-center text-cream">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Don Antonio Bruzzoni Delfino
+            {dict.donAntonio.hero.title}
           </h1>
           <p className="text-xl md:text-2xl text-cream/80 font-light">
-            De Cogoleto a las montañas de Venezuela
+            {dict.donAntonio.hero.subtitle}
           </p>
         </div>
       </section>
@@ -46,13 +46,13 @@ export default async function DonAntonioPage({ params: { lang } }) {
             {/* Texto biográfico */}
             <div className="md:col-span-2 space-y-4 text-lg leading-relaxed">
               <p>
-                Antonio Bruzzoni Delfino nació aproximadamente en 1854 en Cogoleto, Liguria, Italia. Fue hijo de Lázaro Bruzzoni y Benedetta Delfino.
+                {dict.donAntonio.biografia.content_1}
               </p>
               <p>
-                A finales del siglo XIX, con apenas dieciocho años, emprendió un viaje hacia Venezuela, dejando atrás su tierra natal para iniciar una nueva etapa de vida. Según la tradición familiar, pudo haber viajado acompañado por un hermano conocido como "Yumin", cuya historia posterior permanece como una parte pendiente de investigar dentro del relato familiar.
+                {dict.donAntonio.biografia.content_2}
               </p>
               <p>
-                En Venezuela, Antonio encontró una tierra donde establecerse. Con esfuerzo, disciplina y capacidad para asumir riesgos, fue desarrollando un patrimonio agrícola en las montañas de Aragua, una región donde el cultivo del café tenía profundas raíces históricas.
+                {dict.donAntonio.biografia.content_3}
               </p>
             </div>
           </div>
@@ -64,8 +64,8 @@ export default async function DonAntonioPage({ params: { lang } }) {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <SectionTitle 
-              title="Familia"
-              subtitle="Junto a Tomasa Silva Silva"
+              title={dict.donAntonio.familia.title}
+              subtitle={dict.donAntonio.familia.subtitle}
               align="center"
             />
 
@@ -79,13 +79,13 @@ export default async function DonAntonioPage({ params: { lang } }) {
               </div>
               <div className="space-y-4 text-lg leading-relaxed">
                 <p>
-                  Antonio compartió su vida con Tomasa Silva Silva, venezolana, hija de Juan Silva y Andrea Silva. Juntos formaron una familia marcada por el esfuerzo, la perseverancia y también por las dificultades propias de su época.
+                  {dict.donAntonio.familia.content_1}
                 </p>
                 <p>
-                  Siete de sus hijos alcanzaron edades mayores y permitieron la continuidad del apellido y la historia familiar:
+                  {dict.donAntonio.familia.content_2}
                 </p>
-                <p className="font-serif text-brown font-semibold">
-                  María Magdalena, Carmen, Modesta, Eugenio, Carlina Antonia, Teodora María y Luis.
+                <p className="font-serif text-brown dark:text-gold font-semibold">
+                  {dict.donAntonio.familia.hijos}
                 </p>
               </div>
             </div>
@@ -97,25 +97,25 @@ export default async function DonAntonioPage({ params: { lang } }) {
       <section className="section-padding container-custom">
         <div className="max-w-4xl mx-auto">
           <SectionTitle 
-            title="Un legado que trasciende"
-            subtitle="Más que un patrimonio, una forma de vida"
+            title={dict.donAntonio.legado.title}
+            subtitle={dict.donAntonio.legado.subtitle}
             align="center"
           />
 
           <div className="mt-8 space-y-4 text-lg leading-relaxed">
             <p>
-              La memoria familiar describe a Antonio como una persona trabajadora, cariñosa y dedicada a sus hijos. Entre los recuerdos transmitidos destaca la imagen de Antonio leyendo mientras sus hijos se sentaban a su alrededor para escucharlo.
+              {dict.donAntonio.legado.content_1}
             </p>
-            <p className="text-brown font-serif text-xl italic">
-              Porque construir un legado no consiste únicamente en levantar propiedades. Consiste también en transmitir valores.
+            <p className="text-brown dark:text-gold font-serif text-xl italic">
+              {dict.donAntonio.legado.content_2}
             </p>
           </div>
 
-          <div className="mt-12 bg-brown/5 p-8 md:p-12 rounded-lg border-l-4 border-brown text-center">
-            <p className="text-2xl md:text-3xl font-serif italic text-brown">
-              "Un legado no se conserva únicamente recordándolo. Un legado se conserva actuando."
+          <div className="mt-12 bg-brown/5 dark:bg-gold/5 p-8 md:p-12 rounded-lg border-l-4 border-brown dark:border-gold text-center">
+            <p className="text-2xl md:text-3xl font-serif italic text-brown dark:text-gold">
+              {dict.donAntonio.legado.cita}
             </p>
-            <p className="mt-3 text-silver">— Don Antonio Bruzzoni Delfino</p>
+            <p className="mt-3 text-silver dark:text-cream/70">— Don Antonio Bruzzoni Delfino</p>
           </div>
 
           <div className="text-center mt-8">

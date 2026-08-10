@@ -56,6 +56,34 @@
     "quote_title": "Uma história que merece continuar",
     "quote": "O objetivo não é transformar o passado em uma peça de museu. É fazer com que esse passado volte a produzir futuro."
   },
+  "donAntonio": {
+    "title": "Dom Antonio Bruzzoni Delfino",
+    "subtitle": "De Cogoleto às montanhas da Venezuela",
+    "hero": {
+      "title": "Dom Antonio Bruzzoni Delfino",
+      "subtitle": "De Cogoleto às montanhas da Venezuela"
+    },
+    "biografia": {
+      "title": "Biografia",
+      "content_1": "Antonio Bruzzoni Delfino nasceu por volta de 1854 em Cogoleto, Ligúria, Itália. Era filho de Lázaro Bruzzoni e Benedetta Delfino.",
+      "content_2": "No final do século XIX, com apenas dezoito anos, embarcou em uma viagem para a Venezuela, deixando sua terra natal para iniciar uma nova vida. Segundo a tradição familiar, pode ter viajado acompanhado por um irmão conhecido como \"Yumin\", cuja história posterior permanece como uma parte pendente de investigação na narrativa familiar.",
+      "content_3": "Na Venezuela, Antonio encontrou uma terra para se estabelecer. Com esforço, disciplina e capacidade de assumir riscos, desenvolveu um patrimônio agrícola nas montanhas de Aragua, uma região onde o cultivo do café tinha profundas raízes históricas."
+    },
+    "familia": {
+      "title": "Família",
+      "subtitle": "Junto com Tomasa Silva Silva",
+      "content_1": "Antonio compartilhou sua vida com Tomasa Silva Silva, venezuelana, filha de Juan Silva e Andrea Silva. Juntos formaram uma família marcada pelo esforço, perseverança e também pelas dificuldades de sua época.",
+      "content_2": "Sete de seus filhos atingiram a idade adulta e permitiram a continuidade do sobrenome e da história familiar:",
+      "hijos": "María Magdalena, Carmen, Modesta, Eugenio, Carlina Antonia, Teodora María e Luis."
+    },
+    "legado": {
+      "title": "Um legado que transcende",
+      "subtitle": "Mais que um patrimônio, um modo de vida",
+      "content_1": "A memória familiar descreve Antonio como uma pessoa trabalhadora, carinhosa e dedicada aos seus filhos. Entre as lembranças transmitidas, destaca-se a imagem de Antonio lendo enquanto seus filhos se sentavam ao seu redor para ouvi-lo.",
+      "content_2": "Porque construir um legado não consiste apenas em construir propriedades. Consiste também em transmitir valores.",
+      "cita": "\"Um legado não se conserva apenas lembrando dele. Um legado se conserva agindo.\""
+    }
+  },
   "sanJose": {
     "title": "San José (Bucaral)",
     "subtitle": "Terra de café",

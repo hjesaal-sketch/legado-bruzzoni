@@ -56,6 +56,34 @@
     "quote_title": "Eine Geschichte, die es wert ist, fortgesetzt zu werden",
     "quote": "Das Ziel ist nicht, die Vergangenheit in ein Museumsobjekt zu verwandeln. Es ist, diese Vergangenheit wieder Zukunft produzieren zu lassen."
   },
+  "donAntonio": {
+    "title": "Don Antonio Bruzzoni Delfino",
+    "subtitle": "Von Cogoleto in die Berge Venezuelas",
+    "hero": {
+      "title": "Don Antonio Bruzzoni Delfino",
+      "subtitle": "Von Cogoleto in die Berge Venezuelas"
+    },
+    "biografia": {
+      "title": "Biografie",
+      "content_1": "Antonio Bruzzoni Delfino wurde um 1854 in Cogoleto, Ligurien, Italien, geboren. Er war der Sohn von Lázaro Bruzzoni und Benedetta Delfino.",
+      "content_2": "Ende des 19. Jahrhunderts, mit kaum achtzehn Jahren, trat er eine Reise nach Venezuela an und verließ seine Heimat, um ein neues Leben zu beginnen. Der Familientradition zufolge könnte er von einem Bruder begleitet worden sein, der als \"Yumin\" bekannt ist, dessen spätere Geschichte jedoch noch Teil der familiären Forschung ist.",
+      "content_3": "In Venezuela fand Antonio ein Land, um sich niederzulassen. Mit Fleiß, Disziplin und Risikobereitschaft entwickelte er ein landwirtschaftliches Anwesen in den Bergen von Aragua, einer Region, in der der Kaffeeanbau tiefe historische Wurzeln hatte."
+    },
+    "familia": {
+      "title": "Familie",
+      "subtitle": "Gemeinsam mit Tomasa Silva Silva",
+      "content_1": "Antonio teilte sein Leben mit Tomasa Silva Silva, einer Venezolanerin, Tochter von Juan Silva und Andrea Silva. Gemeinsam gründeten sie eine Familie, die von Einsatz, Ausdauer und auch den Schwierigkeiten ihrer Zeit geprägt war.",
+      "content_2": "Sieben ihrer Kinder erreichten das Erwachsenenalter und ermöglichten die Kontinuität des Familiennamens und der Familiengeschichte:",
+      "hijos": "María Magdalena, Carmen, Modesta, Eugenio, Carlina Antonia, Teodora María und Luis."
+    },
+    "legado": {
+      "title": "Ein Vermächtnis, das überdauert",
+      "subtitle": "Mehr als ein Anwesen, eine Lebensweise",
+      "content_1": "Die Familienerinnerung beschreibt Antonio als einen fleißigen, liebevollen Menschen, der seinen Kindern zugetan war. Unter den überlieferten Erinnerungen sticht das Bild von Antonio hervor, der las, während seine Kinder sich um ihn versammelten, um ihm zuzuhören.",
+      "content_2": "Denn ein Vermächtnis aufzubauen bedeutet nicht nur, Besitztümer zu errichten. Es bedeutet auch, Werte weiterzugeben.",
+      "cita": "\"Ein Vermächtnis wird nicht nur dadurch bewahrt, dass man sich daran erinnert. Ein Vermächtnis wird durch Handeln bewahrt.\""
+    }
+  },
   "sanJose": {
     "title": "San José (Bucaral)",
     "subtitle": "Kaffeeland",

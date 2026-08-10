@@ -56,6 +56,34 @@
     "quote_title": "Una storia che merita di continuare",
     "quote": "L'obiettivo non è trasformare il passato in un pezzo da museo. È fare in modo che quel passato produca di nuovo futuro."
   },
+  "donAntonio": {
+    "title": "Don Antonio Bruzzoni Delfino",
+    "subtitle": "Da Cogoleto alle montagne del Venezuela",
+    "hero": {
+      "title": "Don Antonio Bruzzoni Delfino",
+      "subtitle": "Da Cogoleto alle montagne del Venezuela"
+    },
+    "biografia": {
+      "title": "Biografia",
+      "content_1": "Antonio Bruzzoni Delfino nacque intorno al 1854 a Cogoleto, in Liguria, Italia. Era figlio di Lázaro Bruzzoni e Benedetta Delfino.",
+      "content_2": "Alla fine del XIX secolo, con appena diciotto anni, intraprese un viaggio verso il Venezuela, lasciando la sua terra natale per iniziare una nuova vita. Secondo la tradizione familiare, potrebbe aver viaggiato accompagnato da un fratello noto come \"Yumin\", la cui storia successiva rimane ancora da approfondire nel racconto familiare.",
+      "content_3": "In Venezuela, Antonio trovò una terra dove stabilirsi. Con impegno, disciplina e capacità di assumersi rischi, sviluppò un patrimonio agricolo nelle montagne dell'Aragua, una regione dove la coltivazione del caffè aveva profonde radici storiche."
+    },
+    "familia": {
+      "title": "Famiglia",
+      "subtitle": "Insieme a Tomasa Silva Silva",
+      "content_1": "Antonio condivise la sua vita con Tomasa Silva Silva, venezuelana, figlia di Juan Silva e Andrea Silva. Insieme formarono una famiglia segnata dall'impegno, dalla perseveranza e anche dalle difficoltà del loro tempo.",
+      "content_2": "Sette dei loro figli raggiunsero l'età adulta e permisero la continuità del cognome e della storia familiare:",
+      "hijos": "María Magdalena, Carmen, Modesta, Eugenio, Carlina Antonia, Teodora María e Luis."
+    },
+    "legado": {
+      "title": "Un'eredità che trascende",
+      "subtitle": "Più che un patrimonio, uno stile di vita",
+      "content_1": "La memoria familiare descrive Antonio come una persona laboriosa, affettuosa e dedicata ai suoi figli. Tra i ricordi tramandati, spicca l'immagine di Antonio che leggeva mentre i suoi figli si sedevano intorno a lui per ascoltarlo.",
+      "content_2": "Perché costruire un'eredità non significa solo costruire proprietà. Significa anche trasmettere valori.",
+      "cita": "\"Un'eredità non si conserva solo ricordandola. Un'eredità si conserva agendo.\""
+    }
+  },
   "sanJose": {
     "title": "San José (Bucaral)",
     "subtitle": "Terra di caffè",

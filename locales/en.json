@@ -56,6 +56,34 @@
     "quote_title": "A story worth continuing",
     "quote": "The goal is not to turn the past into a museum piece. It is to make that past produce a future again."
   },
+  "donAntonio": {
+    "title": "Don Antonio Bruzzoni Delfino",
+    "subtitle": "From Cogoleto to the mountains of Venezuela",
+    "hero": {
+      "title": "Don Antonio Bruzzoni Delfino",
+      "subtitle": "From Cogoleto to the mountains of Venezuela"
+    },
+    "biografia": {
+      "title": "Biography",
+      "content_1": "Antonio Bruzzoni Delfino was born around 1854 in Cogoleto, Liguria, Italy. He was the son of Lázaro Bruzzoni and Benedetta Delfino.",
+      "content_2": "At the end of the 19th century, at barely eighteen years old, he embarked on a journey to Venezuela, leaving his homeland to start a new life. According to family tradition, he may have traveled accompanied by a brother known as \"Yumin\", whose later history remains pending investigation within the family story.",
+      "content_3": "In Venezuela, Antonio found a land to settle in. With effort, discipline and a capacity for risk-taking, he developed an agricultural estate in the mountains of Aragua, a region where coffee cultivation had deep historical roots."
+    },
+    "familia": {
+      "title": "Family",
+      "subtitle": "Together with Tomasa Silva Silva",
+      "content_1": "Antonio shared his life with Tomasa Silva Silva, a Venezuelan woman, daughter of Juan Silva and Andrea Silva. Together they formed a family marked by effort, perseverance and also the difficulties of their time.",
+      "content_2": "Seven of their children reached adulthood and allowed the continuity of the family name and history:",
+      "hijos": "María Magdalena, Carmen, Modesta, Eugenio, Carlina Antonia, Teodora María and Luis."
+    },
+    "legado": {
+      "title": "A legacy that transcends",
+      "subtitle": "More than an estate, a way of life",
+      "content_1": "Family memory describes Antonio as a hardworking, loving man dedicated to his children. Among the memories passed down, the image of Antonio reading while his children sat around him to listen stands out.",
+      "content_2": "Because building a legacy is not just about building properties. It is also about transmitting values.",
+      "cita": "\"A legacy is not preserved just by remembering it. A legacy is preserved by taking action.\""
+    }
+  },
   "sanJose": {
     "title": "San José (Bucaral)",
     "subtitle": "Coffee land",
