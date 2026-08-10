@@ -17,16 +17,13 @@ export function LanguageSwitcher({ lang }) {
   const router = useRouter();
 
   const handleLanguageChange = (newLang) => {
-    // Obtener la ruta actual sin el prefijo de idioma
     const segments = pathname.split('/');
-    // Si el primer segmento es un código de idioma (2 letras), removerlo
     let cleanPath = '';
     if (segments.length > 1 && segments[1].length === 2) {
       cleanPath = '/' + segments.slice(2).join('/');
     } else {
       cleanPath = pathname;
     }
-    // Si la ruta limpia está vacía o es solo '/', ir a la raíz del idioma
     const newPath = cleanPath === '/' || cleanPath === '' ? `/${newLang}` : `/${newLang}${cleanPath}`;
     router.push(newPath);
     setIsOpen(false);
