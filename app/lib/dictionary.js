@@ -9,6 +9,6 @@ const dictionaries = {
 };
 
 export const getDictionary = async (locale) => {
-  const selectedLocale = locale in dictionaries ? locale : 'es';
+  const selectedLocale = locale || 'es';
   return dictionaries[selectedLocale]();
 };
