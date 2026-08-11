@@ -42,15 +42,12 @@ export function Header({ lang }) {
   ];
 
   return (
-    <header 
-      className="fixed top-0 left-0 right-0 backdrop-blur-sm z-50 border-b border-brown/10 dark:bg-black/95"
-      style={{ backgroundColor: '#F5F2EB' }}
-    >
+    <header className="fixed top-0 left-0 right-0 bg-cream dark:bg-black backdrop-blur-sm z-50 border-b border-brown/10 dark:border-gold/10">
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href={`/${lang}`} className="flex items-center shrink-0">
-            <span className="font-serif text-lg md:text-2xl font-bold text-brown whitespace-nowrap dark:text-gold">
+            <span className="font-serif text-lg md:text-2xl font-bold text-brown dark:text-gold whitespace-nowrap">
               Hacienda <span className="text-black dark:text-cream">Bruzzoni</span>
             </span>
           </Link>
