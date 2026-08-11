@@ -94,7 +94,7 @@ export function Header({ lang }) {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden pb-4 max-h-[80vh] overflow-y-auto">
+          <div className="lg:hidden pb-4 max-h-[80vh] overflow-y-auto overflow-x-visible">
             <nav className="flex flex-col space-y-1">
               {menuGroups.map((group) => (
                 <div key={group.label}>
