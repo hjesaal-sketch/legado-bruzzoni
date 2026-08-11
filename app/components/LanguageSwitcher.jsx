@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter }next/navigation';
 
 const languages = [
   { code: 'es', label: 'ES', name: 'Español' },
