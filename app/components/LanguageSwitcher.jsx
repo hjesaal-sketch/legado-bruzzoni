@@ -35,7 +35,7 @@ export function LanguageSwitcher({ lang }) {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1 text-sm text-black/80 hover:text-brown transition-colors font-medium dark:text-cream/80 dark:hover:text-gold"
+        className="flex items-center gap-1 text-sm text-black hover:text-brown transition-colors font-medium dark:text-cream dark:hover:text-gold"
       >
         {currentLang.label}
         <svg className={`w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ export function LanguageSwitcher({ lang }) {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 mt-1 bg-cream dark:bg-[#1a1a1a] border border-brown/10 dark:border-gold/10 rounded-lg shadow-lg py-1 min-w-[140px] z-50">
+        <div className="absolute top-full right-0 mt-1 bg-white dark:bg-[#1a1a1a] border border-brown/10 dark:border-gold/10 rounded-lg shadow-lg py-1 min-w-[140px] z-[999]">
           {languages.map((l) => (
             <button
               key={l.code}
@@ -52,7 +52,7 @@ export function LanguageSwitcher({ lang }) {
               className={`w-full text-left px-4 py-2 text-sm hover:bg-brown/5 dark:hover:bg-gold/10 transition-colors ${
                 lang === l.code 
                   ? 'text-brown dark:text-gold font-semibold' 
-                  : 'text-black/70 dark:text-cream/70 hover:text-brown dark:hover:text-gold'
+                  : 'text-black dark:text-cream/70 hover:text-brown dark:hover:text-gold'
               }`}
             >
               {l.label} - {l.name}
