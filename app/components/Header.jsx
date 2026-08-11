@@ -42,7 +42,10 @@ export function Header({ lang }) {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-cream backdrop-blur-sm z-50 border-b border-brown/10 dark:bg-black/95">
+    <header 
+      className="fixed top-0 left-0 right-0 backdrop-blur-sm z-50 border-b border-brown/10 dark:bg-black/95"
+      style={{ backgroundColor: '#F5F2EB' }}
+    >
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
