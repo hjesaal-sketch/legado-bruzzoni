@@ -43,7 +43,7 @@ export default async function HomePage({ params: { lang } }) {
         subtitle={dict.hero.subtitle}
         ctaText={dict.hero.cta}
         ctaLink={`/${lang}/la-hacienda`}
-        image="/images/hero-bg.jpg"
+        image="/images/hero-bg.webp"
       />
 
       <section className="section-padding container-custom">
