@@ -46,7 +46,12 @@ export function Header({ lang }) {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href={`/${lang}`} className="flex items-center shrink-0">
+          <Link href={`/${lang}`} className="flex items-center gap-2 shrink-0">
+            <img 
+              src="/images/logo-bruzzoni.png" 
+              alt="Hacienda Bruzzoni" 
+              className="h-9 w-9"
+            />
             <span className="font-serif text-lg md:text-2xl font-bold text-brown dark:text-gold whitespace-nowrap">
               Hacienda <span className="text-black dark:text-cream">Bruzzoni</span>
             </span>
