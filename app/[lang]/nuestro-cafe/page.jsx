@@ -39,6 +39,24 @@ export default async function NuestroCafePage({ params: { lang } }) {
               {dict.nuestroCafe.donAntonio_desc}
             </p>
           </div>
+
+          {/* Imágenes de Bruzzoni Café */}
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/bruzzoni-cafe-1.webp"
+                alt="Bruzzoni Café"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/bruzzoni-cafe-2.webp"
+                alt="Bruzzoni Café"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
