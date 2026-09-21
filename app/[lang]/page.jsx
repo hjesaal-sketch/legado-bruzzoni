@@ -12,25 +12,25 @@ export default async function HomePage({ params: { lang } }) {
     {
       title: dict.home.features.cafe.title,
       description: dict.home.features.cafe.description,
-      image: '/images/cafe-cultivo.jpg',
+      image: '/images/cafe-cultivo.webp',
       badge: null,
     },
     {
       title: dict.home.features.naturaleza.title,
       description: dict.home.features.naturaleza.description,
-      image: '/images/hero-bg.jpg',
+      image: '/images/naturaleza-montana.webp',
       badge: null,
     },
     {
       title: dict.home.features.historia.title,
       description: dict.home.features.historia.description,
-      image: '/images/historia-familia.jpg',
+      image: '/images/historia-familia.webp',
       badge: null,
     },
     {
       title: dict.home.features.experiencias.title,
       description: dict.home.features.experiencias.description,
-      image: '/images/turismo-senderismo.jpg',
+      image: '/images/turismo-senderismo.webp',
       badge: dict.common.badge_development,
     },
   ];
