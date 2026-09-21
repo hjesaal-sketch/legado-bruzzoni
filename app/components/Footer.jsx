@@ -7,9 +7,16 @@ export function Footer({ lang }) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl font-bold text-gold mb-2">
-              Hacienda Bruzzoni
-            </h3>
+            <div className="flex items-center gap-2 mb-2">
+              <img 
+                src="/images/logo-bruzzoni.png" 
+                alt="Hacienda Bruzzoni" 
+                className="h-9 w-9"
+              />
+              <h3 className="font-serif text-2xl font-bold text-gold">
+                Hacienda Bruzzoni
+              </h3>
+            </div>
             <p className="text-silver text-sm italic">
               Honrar el pasado. Construir el futuro.
             </p>

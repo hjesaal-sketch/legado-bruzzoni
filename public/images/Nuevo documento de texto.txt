@@ -12,3 +12,19 @@ Archivo	Ruta
 Hero	public/images/don-antonio-hero.jpg
 Retrato	public/images/don-antonio-retrato.jpg
 Familia	public/images/familia-bruzzoni.jpg
+
+cafe-cultivo.webp
+naturaleza-montana.webp
+historia-familia.webp
+turismo-senderismo.webp
+
+NOMBRES DE ARCHIVO
+#	Nombre	Descripción
+1	galeria-01-paisaje.jpg	Paisaje de montaña
+2	galeria-02-cafe.jpg	Cultivo de café
+3	galeria-03-hacienda.jpg	Infraestructura de la hacienda
+4	galeria-04-naturaleza.jpg	Naturaleza / biodiversidad
+5	galeria-05-camino.jpg	Caminos de la propiedad
+6	galeria-06-atardecer.jpg	Atardecer en la montaña
+7	galeria-07-historia.jpg	Foto antigua / familia
+8	galeria-08-experiencia.jpg	Experiencia / visita
